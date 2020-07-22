@@ -3,6 +3,7 @@ def find_min_in_nested_arrays(src)
   lowest_element = 0 
   low_temps = []
   
+  p src
   while row_count < src.count do
     element_count = 0
     
