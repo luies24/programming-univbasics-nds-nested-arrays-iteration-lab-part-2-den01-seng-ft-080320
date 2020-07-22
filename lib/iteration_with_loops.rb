@@ -10,11 +10,11 @@ def find_min_in_nested_arrays(src)
       if src[row_count][element_count] < lowest_element
         lowest_element = src[row_count][element_count]
       end
-      
+      low_temps << lowest_element
       element_count += 1
     end
     
-    low_temps << lowest_element
+    #low_temps << lowest_element
     row_count += 1
   end
   low_temps
